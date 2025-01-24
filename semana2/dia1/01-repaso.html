@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+
+            color: #eee;
+            background-color: #222;
+
+        }
+        section {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 36px;
+        }
+
+        /* todos los elementos de clase "rojo" que sean descendientes (en cualquier nivel) de la clase "grande" */
+
+        .grande .rojo {
+
+            font-size: 50px;
+        }
+
+        ul li {
+
+            /* Como se lee ul li, todos los li que sean descendientes de un ul */
+
+            border: 1px solid yellow;
+        }
+
+
+        /* ul > li {
+
+             Que significa ul > li; todos los hijos directos "li" (en primer grado) de un elemento "ul" 
+        } */
+
+    </style>
+</head>
+<body>
+
+    <section>
+        <p>texto del parrafo</p>
+        texto fuera del parrafo 
+        <p class="grande">texto del <span class="rojo">parrafo</span> grande</p>
+    </section>
+
+    <section>
+
+    <ul>
+        <li>JavaScript</li>
+        <ol>
+            <li>NodeJS</li>
+            <li>Browser</li>
+        </ol>
+        <li>Python</li>
+        <li>TypeScript</li>
+    </ul>
+
+</section>
+    
+</body>
+</html>
