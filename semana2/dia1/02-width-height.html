@@ -1,36 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-     *{
-
+      * {
         margin: 0;
         padding: 0;
-     }
+        box-sizing: border-box;
+      }
 
-     .caja-1 {
+      body {
+        background-color: #ccc;
+        border: 5px solid peru;
+        height: 100vh;
+      }
 
+      .caja-1 {
         border: 1px solid red;
         width: 200px;
         height: 100px;
-     }
+        /* overflow: hidden; */
+        /* hidden significa oculto */
+        overflow-y: hidden;
+        overflow-x: scroll;
+      }
 
-     .span-1 {
-       
+      .span-1 {
         border: 1px solid blue;
         width: 200px;
         height: 100px;
+      }
 
-     }
+      .caja-2 {
+        border: 1px solid white;
+        height: 100px;
+        width: 200px; 
+        overflow-x: scroll;
+      }
+
+      .parrafo-grande {
+        width: 300px;
+      }
+
+      
 
     </style>
-</head>
-<body>
-    <div class="caja-1">algo de contenido</div>
+  </head>
+  <body>
+    <div class="caja-1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+      reiciendis repellat nemo officiis consequatur cum amet, expedita
+      doloremque molestias accusamus eaque minus sit unde, numquam rerum, id
+      enim alias ducimus.
+    </div>
     <span class="span-1">un span</span>
-    
-</body>
+    <div class="caja-2">
+      <p class="parrafo-grande">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi saepe
+        quisquam dolore voluptatem explicabo. Quos rem perspiciatis, tenetur
+        eius accusamus modi illum asperiores nemo quam exercitationem quia harum
+        a consectetur!
+      </p>
+    </div>
+  </body>
 </html>
