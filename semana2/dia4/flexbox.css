@@ -1,0 +1,54 @@
+/* .papa{
+    display: flex;
+    margin: 5px;
+    border: solid 3px black;
+} */
+
+/* div {
+    margin: 5px;
+} */
+
+/* estoe el header */
+
+.main-navegacion {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.lista-ul{
+    display: flex;
+    border: solid 3px brown;
+    list-style: none; 
+    
+}
+
+.lista-l1{
+    margin-right: 20px;
+}
+
+.imagen-1 {
+    border-radius: 100%;
+}
+
+/* section caja */
+
+.papa-box{
+
+    height: 50vh;
+    border: solid orange 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content las propiedas que se le apliquen van de manera horizontal */
+    align-items: center;
+    /* align-items las propiedades que se le apliquen van de manera vertical */
+
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 8px;
+}
