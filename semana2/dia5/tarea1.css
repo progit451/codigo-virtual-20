@@ -1,0 +1,290 @@
+body {
+  /* border: solid 3px black; */
+  width: 1440px;
+  height: 2917px;
+  top: -572px;
+  left: -502px;
+  background-color: #ffffff;
+}
+
+.h1-1 {
+  /* width: 295px;
+  height: 37px; */
+  top: 71px;
+  left: 549px;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36.8px;
+  letter-spacing: 0%;
+  color: #000000;
+  text-align: center;
+}
+
+.h2-1 {
+  width: 73px;
+  height: 28px;
+  top: 165px;
+  left: 33px;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27.6px;
+  letter-spacing: 0%;
+  color: #3b06d2;
+}
+
+.parrafo-1 {
+  width: 1367px;
+  height: 114px;
+  top: 209px;
+  left: 33px;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.imagen-1 {
+  width: 385px;
+  height: 182px;
+  top: 330px;
+  left: 38px;
+}
+
+.imagen-2 {
+  width: 385px;
+  height: 182px;
+  top: 330px;
+  left: 453px;
+}
+
+.imagen-3 {
+  width: 385px;
+  height: 182px;
+  top: 330px;
+  left: 868px;
+}
+
+.division-1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.h2-2 {
+  width: 131px;
+  height: 28px;
+  top: 578px;
+  left: 38px;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27.6px;
+  letter-spacing: 0%;
+  color: #d206b2;
+}
+
+.parrafo-2 {
+  width: 1367px;
+  height: 114px;
+  top: 622px;
+  left: 38px;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.parrafo-3 {
+  width: 1367px;
+  height: 114px;
+  top: 717px;
+  left: 40px;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.imagen-4 {
+  width: 385px;
+  height: 182px;
+  top: 843px;
+  left: 43px;
+}
+
+.imagen-5 {
+  width: 385px;
+  height: 182px;
+  top: 843px;
+  left: 458px;
+}
+
+.imagen-6 {
+  width: 385px;
+  height: 182px;
+  top: 843px;
+  left: 873px;
+}
+
+.division-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ul-1 {
+  width: 158px;
+  height: 176px;
+  top: 1075px;
+  left: 49px;
+}
+
+.lista-l1 {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #ff6868;
+}
+
+.lista-l2 {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #2210ff;
+}
+
+.lista-l3 {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #d9a00c;
+}
+
+.lista-l4 {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #74d5d5;
+}
+
+.h2-3 {
+  width: 156px;
+  height: 28px;
+  top: 1301px;
+  left: 38px;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27.6px;
+  letter-spacing: 0%;
+  color: #aad206;
+}
+
+.parrafo-4 {
+  width: 1367px;
+  height: 114px;
+  top: 1345px;
+  left: 38px;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.parrafo-5 {
+  width: 1367px;
+  height: 114px;
+  top: 1440px;
+  left: 40px;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.imagen-7 {
+  width: 385px;
+  height: 182px;
+  top: 1566px;
+  left: 43px;
+}
+
+.imagen-8 {
+  width: 385px;
+  height: 182px;
+  top: 1566px;
+  left: 458px;
+}
+
+.imagen-9 {
+  width: 385px;
+  height: 182px;
+  top: 1566px;
+  left: 873px;
+}
+
+.division-3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ul-2 {
+  width: 158px;
+  height: 176px;
+  top: 1798px;
+  left: 49px;
+}
+
+.lista-l5 {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color:#B7961E ;
+}
+
+.lista-l6 {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #B9442B;
+}
+
+.lista-l7 {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color:#272779 ;
+}
+
+.lista-l8 {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #728018;
+}

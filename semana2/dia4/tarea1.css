@@ -46,6 +46,10 @@ body{
     border-radius: 10px;
 }
 
+.imagen-1:hover{
+    border: solid 3px yellow;
+}
+
 .parrafo-1{
     margin: 20px;
     font-size: 15px;
