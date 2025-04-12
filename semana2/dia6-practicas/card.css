@@ -1,10 +1,12 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 body{
     background-color: #212123;
     margin: 4rem;
+    /* Hay medidas absolutas o relativas, investigar sobre unidades de medida */
     display: flex;
     justify-content: center;
     align-items: center;
